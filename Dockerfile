@@ -1,4 +1,5 @@
 FROM golang:1.6
+# named hsheth2/gonet-base
 
 RUN apt-get update
 RUN apt-get -y install sudo apt-utils net-tools iptables
